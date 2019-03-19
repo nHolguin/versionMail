@@ -345,6 +345,45 @@ public class JFrameMain extends javax.swing.JFrame {
         jScrollPane7 = new javax.swing.JScrollPane();
         crb = new javax.swing.JTextArea();
         jPanel2 = new javax.swing.JPanel();
+        jPanel18 = new javax.swing.JPanel();
+        jPanel21 = new javax.swing.JPanel();
+        jScrollPane13 = new javax.swing.JScrollPane();
+        recibido1 = new javax.swing.JTextArea();
+        jPanel22 = new javax.swing.JPanel();
+        jScrollPane14 = new javax.swing.JScrollPane();
+        enviar2 = new javax.swing.JTextArea();
+        jPanel20 = new javax.swing.JPanel();
+        checkARB2 = new javax.swing.JCheckBox();
+        jPanel29 = new javax.swing.JPanel();
+        jButton7 = new javax.swing.JButton();
+        jPanel31 = new javax.swing.JPanel();
+        checkCPH2 = new javax.swing.JCheckBox();
+        jPanel28 = new javax.swing.JPanel();
+        jButton6 = new javax.swing.JButton();
+        jPanel30 = new javax.swing.JPanel();
+        checkCPS2 = new javax.swing.JCheckBox();
+        jPanel32 = new javax.swing.JPanel();
+        jButton9 = new javax.swing.JButton();
+        jPanel27 = new javax.swing.JPanel();
+        checkDES2 = new javax.swing.JCheckBox();
+        jPanel23 = new javax.swing.JPanel();
+        jButton8 = new javax.swing.JButton();
+        jPanel25 = new javax.swing.JPanel();
+        checkCRB2 = new javax.swing.JCheckBox();
+        jPanel26 = new javax.swing.JPanel();
+        jButton10 = new javax.swing.JButton();
+        jPanel24 = new javax.swing.JPanel();
+        jPanel19 = new javax.swing.JPanel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        arb2 = new javax.swing.JTextArea();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        cph2 = new javax.swing.JTextArea();
+        jScrollPane10 = new javax.swing.JScrollPane();
+        cps2 = new javax.swing.JTextArea();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        des2 = new javax.swing.JTextArea();
+        jScrollPane12 = new javax.swing.JScrollPane();
+        crb2 = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -741,16 +780,322 @@ public class JFrameMain extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Hispanos Soluciones", jPanel1);
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 972, Short.MAX_VALUE)
+        jPanel2.setLayout(new java.awt.GridLayout(2, 2));
+
+        jPanel18.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel18.setLayout(new java.awt.GridLayout(1, 3));
+
+        jPanel21.setBackground(new java.awt.Color(255, 255, 255));
+
+        recibido1.setColumns(20);
+        recibido1.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        recibido1.setLineWrap(true);
+        recibido1.setRows(5);
+        recibido1.setToolTipText("A");
+        recibido1.setWrapStyleWord(true);
+        recibido1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jScrollPane13.setViewportView(recibido1);
+
+        javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
+        jPanel21.setLayout(jPanel21Layout);
+        jPanel21Layout.setHorizontalGroup(
+            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel21Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane13, javax.swing.GroupLayout.DEFAULT_SIZE, 304, Short.MAX_VALUE)
+                .addContainerGap())
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 403, Short.MAX_VALUE)
+        jPanel21Layout.setVerticalGroup(
+            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel21Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane13, javax.swing.GroupLayout.DEFAULT_SIZE, 179, Short.MAX_VALUE)
+                .addContainerGap())
         );
+
+        jPanel18.add(jPanel21);
+
+        jPanel22.setBackground(new java.awt.Color(255, 255, 255));
+
+        enviar2.setColumns(20);
+        enviar2.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        enviar2.setLineWrap(true);
+        enviar2.setRows(5);
+        enviar2.setToolTipText("B");
+        enviar2.setWrapStyleWord(true);
+        enviar2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jScrollPane14.setViewportView(enviar2);
+
+        javax.swing.GroupLayout jPanel22Layout = new javax.swing.GroupLayout(jPanel22);
+        jPanel22.setLayout(jPanel22Layout);
+        jPanel22Layout.setHorizontalGroup(
+            jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel22Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane14, javax.swing.GroupLayout.DEFAULT_SIZE, 304, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        jPanel22Layout.setVerticalGroup(
+            jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel22Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane14, javax.swing.GroupLayout.DEFAULT_SIZE, 179, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        jPanel18.add(jPanel22);
+
+        jPanel20.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel20.setLayout(new java.awt.GridLayout(5, 4));
+
+        checkARB2.setBackground(new java.awt.Color(255, 255, 255));
+        checkARB2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        checkARB2.setText("ARB");
+        jPanel20.add(checkARB2);
+
+        jPanel29.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout jPanel29Layout = new javax.swing.GroupLayout(jPanel29);
+        jPanel29.setLayout(jPanel29Layout);
+        jPanel29Layout.setHorizontalGroup(
+            jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 81, Short.MAX_VALUE)
+        );
+        jPanel29Layout.setVerticalGroup(
+            jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        jPanel20.add(jPanel29);
+
+        jButton7.setText("Copy to B");
+        jPanel20.add(jButton7);
+
+        jPanel31.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout jPanel31Layout = new javax.swing.GroupLayout(jPanel31);
+        jPanel31.setLayout(jPanel31Layout);
+        jPanel31Layout.setHorizontalGroup(
+            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 81, Short.MAX_VALUE)
+        );
+        jPanel31Layout.setVerticalGroup(
+            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        jPanel20.add(jPanel31);
+
+        checkCPH2.setBackground(new java.awt.Color(255, 255, 255));
+        checkCPH2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        checkCPH2.setText("CPH");
+        jPanel20.add(checkCPH2);
+
+        jPanel28.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout jPanel28Layout = new javax.swing.GroupLayout(jPanel28);
+        jPanel28.setLayout(jPanel28Layout);
+        jPanel28Layout.setHorizontalGroup(
+            jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 81, Short.MAX_VALUE)
+        );
+        jPanel28Layout.setVerticalGroup(
+            jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        jPanel20.add(jPanel28);
+
+        jButton6.setText("Paste in A");
+        jPanel20.add(jButton6);
+
+        jPanel30.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout jPanel30Layout = new javax.swing.GroupLayout(jPanel30);
+        jPanel30.setLayout(jPanel30Layout);
+        jPanel30Layout.setHorizontalGroup(
+            jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 81, Short.MAX_VALUE)
+        );
+        jPanel30Layout.setVerticalGroup(
+            jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        jPanel20.add(jPanel30);
+
+        checkCPS2.setBackground(new java.awt.Color(255, 255, 255));
+        checkCPS2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        checkCPS2.setText("CPS");
+        jPanel20.add(checkCPS2);
+
+        jPanel32.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
+        jPanel32.setLayout(jPanel32Layout);
+        jPanel32Layout.setHorizontalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 81, Short.MAX_VALUE)
+        );
+        jPanel32Layout.setVerticalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        jPanel20.add(jPanel32);
+
+        jButton9.setText("Clean All");
+        jPanel20.add(jButton9);
+
+        jPanel27.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout jPanel27Layout = new javax.swing.GroupLayout(jPanel27);
+        jPanel27.setLayout(jPanel27Layout);
+        jPanel27Layout.setHorizontalGroup(
+            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 81, Short.MAX_VALUE)
+        );
+        jPanel27Layout.setVerticalGroup(
+            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        jPanel20.add(jPanel27);
+
+        checkDES2.setBackground(new java.awt.Color(255, 255, 255));
+        checkDES2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        checkDES2.setText("DES");
+        jPanel20.add(checkDES2);
+
+        jPanel23.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout jPanel23Layout = new javax.swing.GroupLayout(jPanel23);
+        jPanel23.setLayout(jPanel23Layout);
+        jPanel23Layout.setHorizontalGroup(
+            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 81, Short.MAX_VALUE)
+        );
+        jPanel23Layout.setVerticalGroup(
+            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        jPanel20.add(jPanel23);
+
+        jButton8.setText("Clean A");
+        jPanel20.add(jButton8);
+
+        jPanel25.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout jPanel25Layout = new javax.swing.GroupLayout(jPanel25);
+        jPanel25.setLayout(jPanel25Layout);
+        jPanel25Layout.setHorizontalGroup(
+            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 81, Short.MAX_VALUE)
+        );
+        jPanel25Layout.setVerticalGroup(
+            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        jPanel20.add(jPanel25);
+
+        checkCRB2.setBackground(new java.awt.Color(255, 255, 255));
+        checkCRB2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        checkCRB2.setText("CRB");
+        jPanel20.add(checkCRB2);
+
+        jPanel26.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout jPanel26Layout = new javax.swing.GroupLayout(jPanel26);
+        jPanel26.setLayout(jPanel26Layout);
+        jPanel26Layout.setHorizontalGroup(
+            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 81, Short.MAX_VALUE)
+        );
+        jPanel26Layout.setVerticalGroup(
+            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        jPanel20.add(jPanel26);
+
+        jButton10.setText("Clean B");
+        jPanel20.add(jButton10);
+
+        jPanel24.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
+        jPanel24.setLayout(jPanel24Layout);
+        jPanel24Layout.setHorizontalGroup(
+            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 81, Short.MAX_VALUE)
+        );
+        jPanel24Layout.setVerticalGroup(
+            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        jPanel20.add(jPanel24);
+
+        jPanel18.add(jPanel20);
+
+        jPanel2.add(jPanel18);
+
+        jPanel19.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel19.setLayout(new java.awt.GridLayout(5, 1));
+
+        arb2.setColumns(20);
+        arb2.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        arb2.setLineWrap(true);
+        arb2.setRows(5);
+        arb2.setToolTipText("ARB");
+        arb2.setWrapStyleWord(true);
+        jScrollPane8.setViewportView(arb2);
+
+        jPanel19.add(jScrollPane8);
+
+        cph2.setColumns(20);
+        cph2.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        cph2.setLineWrap(true);
+        cph2.setRows(5);
+        cph2.setToolTipText("CPH");
+        cph2.setWrapStyleWord(true);
+        jScrollPane9.setViewportView(cph2);
+
+        jPanel19.add(jScrollPane9);
+
+        cps2.setColumns(20);
+        cps2.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        cps2.setLineWrap(true);
+        cps2.setRows(5);
+        cps2.setToolTipText("CPS");
+        cps2.setWrapStyleWord(true);
+        jScrollPane10.setViewportView(cps2);
+
+        jPanel19.add(jScrollPane10);
+
+        des2.setColumns(20);
+        des2.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        des2.setLineWrap(true);
+        des2.setRows(5);
+        des2.setToolTipText("DES");
+        des2.setWrapStyleWord(true);
+        jScrollPane11.setViewportView(des2);
+
+        jPanel19.add(jScrollPane11);
+
+        crb2.setColumns(20);
+        crb2.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        crb2.setLineWrap(true);
+        crb2.setRows(5);
+        crb2.setToolTipText("CRB");
+        crb2.setWrapStyleWord(true);
+        jScrollPane12.setViewportView(crb2);
+
+        jPanel19.add(jScrollPane12);
+
+        jPanel2.add(jPanel19);
 
         jTabbedPane1.addTab("Proyecto 2", jPanel2);
 
@@ -895,21 +1240,37 @@ public class JFrameMain extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextArea arb;
+    private javax.swing.JTextArea arb2;
     private javax.swing.JCheckBox checkARB;
+    private javax.swing.JCheckBox checkARB2;
     private javax.swing.JCheckBox checkCPH;
+    private javax.swing.JCheckBox checkCPH2;
     private javax.swing.JCheckBox checkCPS;
+    private javax.swing.JCheckBox checkCPS2;
     private javax.swing.JCheckBox checkCRB;
+    private javax.swing.JCheckBox checkCRB2;
     private javax.swing.JCheckBox checkDES;
+    private javax.swing.JCheckBox checkDES2;
     private javax.swing.JTextArea cph;
+    private javax.swing.JTextArea cph2;
     private javax.swing.JTextArea cps;
+    private javax.swing.JTextArea cps2;
     private javax.swing.JTextArea crb;
+    private javax.swing.JTextArea crb2;
     private javax.swing.JTextArea des;
+    private javax.swing.JTextArea des2;
     private javax.swing.JTextArea enviar;
+    private javax.swing.JTextArea enviar2;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
@@ -919,8 +1280,23 @@ public class JFrameMain extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel16;
     private javax.swing.JPanel jPanel17;
+    private javax.swing.JPanel jPanel18;
+    private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel20;
+    private javax.swing.JPanel jPanel21;
+    private javax.swing.JPanel jPanel22;
+    private javax.swing.JPanel jPanel23;
+    private javax.swing.JPanel jPanel24;
+    private javax.swing.JPanel jPanel25;
+    private javax.swing.JPanel jPanel26;
+    private javax.swing.JPanel jPanel27;
+    private javax.swing.JPanel jPanel28;
+    private javax.swing.JPanel jPanel29;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel30;
+    private javax.swing.JPanel jPanel31;
+    private javax.swing.JPanel jPanel32;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
@@ -928,13 +1304,21 @@ public class JFrameMain extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
+    private javax.swing.JScrollPane jScrollPane13;
+    private javax.swing.JScrollPane jScrollPane14;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTextArea recibido;
+    private javax.swing.JTextArea recibido1;
     // End of variables declaration//GEN-END:variables
 }
