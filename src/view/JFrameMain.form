@@ -794,6 +794,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="ARB"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkARB2ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Container class="javax.swing.JPanel" name="jPanel29">
                       <Properties>
@@ -819,6 +822,9 @@
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Copy to B"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Container class="javax.swing.JPanel" name="jPanel31">
                       <Properties>
@@ -850,6 +856,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="CPH"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkCPH2ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Container class="javax.swing.JPanel" name="jPanel28">
                       <Properties>
@@ -875,6 +884,9 @@
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Paste in A"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Container class="javax.swing.JPanel" name="jPanel30">
                       <Properties>
@@ -906,6 +918,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="CPS"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkCPS2ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Container class="javax.swing.JPanel" name="jPanel32">
                       <Properties>
@@ -931,6 +946,9 @@
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Clean All"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton9ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Container class="javax.swing.JPanel" name="jPanel27">
                       <Properties>
@@ -962,6 +980,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="DES"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkDES2ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Container class="javax.swing.JPanel" name="jPanel23">
                       <Properties>
@@ -987,6 +1008,9 @@
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Clean A"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton8ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Container class="javax.swing.JPanel" name="jPanel25">
                       <Properties>
@@ -1018,6 +1042,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="CRB"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkCRB2ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Container class="javax.swing.JPanel" name="jPanel26">
                       <Properties>
@@ -1043,6 +1070,9 @@
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Clean B"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton10ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Container class="javax.swing.JPanel" name="jPanel24">
                       <Properties>
@@ -1098,6 +1128,9 @@
                         <Property name="toolTipText" type="java.lang.String" value="ARB"/>
                         <Property name="wrapStyleWord" type="boolean" value="true"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="arb2FocusLost"/>
+                      </Events>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -1119,6 +1152,9 @@
                         <Property name="toolTipText" type="java.lang.String" value="CPH"/>
                         <Property name="wrapStyleWord" type="boolean" value="true"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="cph2FocusLost"/>
+                      </Events>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -1140,6 +1176,9 @@
                         <Property name="toolTipText" type="java.lang.String" value="CPS"/>
                         <Property name="wrapStyleWord" type="boolean" value="true"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="cps2FocusLost"/>
+                      </Events>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -1161,6 +1200,9 @@
                         <Property name="toolTipText" type="java.lang.String" value="DES"/>
                         <Property name="wrapStyleWord" type="boolean" value="true"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="des2FocusLost"/>
+                      </Events>
                     </Component>
                   </SubComponents>
                 </Container>
@@ -1182,6 +1224,9 @@
                         <Property name="toolTipText" type="java.lang.String" value="CRB"/>
                         <Property name="wrapStyleWord" type="boolean" value="true"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="crb2FocusLost"/>
+                      </Events>
                     </Component>
                   </SubComponents>
                 </Container>

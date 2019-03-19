@@ -851,6 +851,11 @@ public class JFrameMain extends javax.swing.JFrame {
         checkARB2.setBackground(new java.awt.Color(255, 255, 255));
         checkARB2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         checkARB2.setText("ARB");
+        checkARB2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                checkARB2ActionPerformed(evt);
+            }
+        });
         jPanel20.add(checkARB2);
 
         jPanel29.setBackground(new java.awt.Color(255, 255, 255));
@@ -869,6 +874,11 @@ public class JFrameMain extends javax.swing.JFrame {
         jPanel20.add(jPanel29);
 
         jButton7.setText("Copy to B");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
         jPanel20.add(jButton7);
 
         jPanel31.setBackground(new java.awt.Color(255, 255, 255));
@@ -889,6 +899,11 @@ public class JFrameMain extends javax.swing.JFrame {
         checkCPH2.setBackground(new java.awt.Color(255, 255, 255));
         checkCPH2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         checkCPH2.setText("CPH");
+        checkCPH2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                checkCPH2ActionPerformed(evt);
+            }
+        });
         jPanel20.add(checkCPH2);
 
         jPanel28.setBackground(new java.awt.Color(255, 255, 255));
@@ -907,6 +922,11 @@ public class JFrameMain extends javax.swing.JFrame {
         jPanel20.add(jPanel28);
 
         jButton6.setText("Paste in A");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
         jPanel20.add(jButton6);
 
         jPanel30.setBackground(new java.awt.Color(255, 255, 255));
@@ -927,6 +947,11 @@ public class JFrameMain extends javax.swing.JFrame {
         checkCPS2.setBackground(new java.awt.Color(255, 255, 255));
         checkCPS2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         checkCPS2.setText("CPS");
+        checkCPS2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                checkCPS2ActionPerformed(evt);
+            }
+        });
         jPanel20.add(checkCPS2);
 
         jPanel32.setBackground(new java.awt.Color(255, 255, 255));
@@ -945,6 +970,11 @@ public class JFrameMain extends javax.swing.JFrame {
         jPanel20.add(jPanel32);
 
         jButton9.setText("Clean All");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
         jPanel20.add(jButton9);
 
         jPanel27.setBackground(new java.awt.Color(255, 255, 255));
@@ -965,6 +995,11 @@ public class JFrameMain extends javax.swing.JFrame {
         checkDES2.setBackground(new java.awt.Color(255, 255, 255));
         checkDES2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         checkDES2.setText("DES");
+        checkDES2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                checkDES2ActionPerformed(evt);
+            }
+        });
         jPanel20.add(checkDES2);
 
         jPanel23.setBackground(new java.awt.Color(255, 255, 255));
@@ -983,6 +1018,11 @@ public class JFrameMain extends javax.swing.JFrame {
         jPanel20.add(jPanel23);
 
         jButton8.setText("Clean A");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
         jPanel20.add(jButton8);
 
         jPanel25.setBackground(new java.awt.Color(255, 255, 255));
@@ -1003,6 +1043,11 @@ public class JFrameMain extends javax.swing.JFrame {
         checkCRB2.setBackground(new java.awt.Color(255, 255, 255));
         checkCRB2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         checkCRB2.setText("CRB");
+        checkCRB2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                checkCRB2ActionPerformed(evt);
+            }
+        });
         jPanel20.add(checkCRB2);
 
         jPanel26.setBackground(new java.awt.Color(255, 255, 255));
@@ -1021,6 +1066,11 @@ public class JFrameMain extends javax.swing.JFrame {
         jPanel20.add(jPanel26);
 
         jButton10.setText("Clean B");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
         jPanel20.add(jButton10);
 
         jPanel24.setBackground(new java.awt.Color(255, 255, 255));
@@ -1051,6 +1101,11 @@ public class JFrameMain extends javax.swing.JFrame {
         arb2.setRows(5);
         arb2.setToolTipText("ARB");
         arb2.setWrapStyleWord(true);
+        arb2.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                arb2FocusLost(evt);
+            }
+        });
         jScrollPane8.setViewportView(arb2);
 
         jPanel19.add(jScrollPane8);
@@ -1061,6 +1116,11 @@ public class JFrameMain extends javax.swing.JFrame {
         cph2.setRows(5);
         cph2.setToolTipText("CPH");
         cph2.setWrapStyleWord(true);
+        cph2.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                cph2FocusLost(evt);
+            }
+        });
         jScrollPane9.setViewportView(cph2);
 
         jPanel19.add(jScrollPane9);
@@ -1071,6 +1131,11 @@ public class JFrameMain extends javax.swing.JFrame {
         cps2.setRows(5);
         cps2.setToolTipText("CPS");
         cps2.setWrapStyleWord(true);
+        cps2.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                cps2FocusLost(evt);
+            }
+        });
         jScrollPane10.setViewportView(cps2);
 
         jPanel19.add(jScrollPane10);
@@ -1081,6 +1146,11 @@ public class JFrameMain extends javax.swing.JFrame {
         des2.setRows(5);
         des2.setToolTipText("DES");
         des2.setWrapStyleWord(true);
+        des2.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                des2FocusLost(evt);
+            }
+        });
         jScrollPane11.setViewportView(des2);
 
         jPanel19.add(jScrollPane11);
@@ -1091,6 +1161,11 @@ public class JFrameMain extends javax.swing.JFrame {
         crb2.setRows(5);
         crb2.setToolTipText("CRB");
         crb2.setWrapStyleWord(true);
+        crb2.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                crb2FocusLost(evt);
+            }
+        });
         jScrollPane12.setViewportView(crb2);
 
         jPanel19.add(jScrollPane12);
@@ -1193,6 +1268,66 @@ public class JFrameMain extends javax.swing.JFrame {
         // TODO add your handling code here:
         eventoCheckbox(5);
     }//GEN-LAST:event_checkCRBActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void checkARB2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_checkARB2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_checkARB2ActionPerformed
+
+    private void checkCPH2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_checkCPH2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_checkCPH2ActionPerformed
+
+    private void checkCPS2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_checkCPS2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_checkCPS2ActionPerformed
+
+    private void checkDES2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_checkDES2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_checkDES2ActionPerformed
+
+    private void checkCRB2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_checkCRB2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_checkCRB2ActionPerformed
+
+    private void arb2FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_arb2FocusLost
+        // TODO add your handling code here:
+    }//GEN-LAST:event_arb2FocusLost
+
+    private void cph2FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_cph2FocusLost
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cph2FocusLost
+
+    private void cps2FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_cps2FocusLost
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cps2FocusLost
+
+    private void des2FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_des2FocusLost
+        // TODO add your handling code here:
+    }//GEN-LAST:event_des2FocusLost
+
+    private void crb2FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_crb2FocusLost
+        // TODO add your handling code here:
+    }//GEN-LAST:event_crb2FocusLost
 
     /**
      * @param args the command line arguments
